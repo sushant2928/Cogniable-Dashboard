@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar__navigation {
+  display: flex;
+}
+.navbar__navigation.wrap {
+  justify-content: end;
+  flex-wrap: wrap;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1111px) {
+  .navbar__navigation.wrap {
+    width: 100%;
+  }
+}
+.navbar__logo {
+  width: 8rem;
+  object-fit: contain;
+  padding: 0.6rem 2rem;
+  padding-right: 2.5rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}

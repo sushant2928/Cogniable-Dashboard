@@ -1,0 +1,30 @@
+.dashboardBox {
+  background-color: white;
+  height: 15rem;
+  box-shadow: 1px 1px 3px #888888;
+  min-width: 30rem;
+}
+.dashboardBox header {
+  padding: 0.5rem 0.75rem;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 5%;
+}
+.dashboardBox main {
+  height: 95%;
+}
+.dashboardBox__noData {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+.dashboardBox__noData .text {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,33 @@
+.profilePanel {
+  width: 22%;
+  min-width: 20rem;
+  background-color: #f2f4f8;
+  min-height: 90vh;
+}
+.profilePanel__header {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.profilePanel__imageContainer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.profilePanel__image {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  width: 10rem;
+  object-fit: contain;
+  cursor: pointer;
+}
+.profilePanel__name {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.75);
+}
+.profilePanel__details {
+  padding: 1rem;
+}
